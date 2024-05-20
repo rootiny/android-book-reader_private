@@ -30,7 +30,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 19
         targetSdkVersion 23 // 24+ - unable to start intent with 'file://'
         versionCode = project(':app').android.defaultConfig.versionCode
         versionName = project(':app').android.defaultConfig.versionName

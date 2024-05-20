@@ -45,6 +45,8 @@
     <string name="per_second">/s</string>
     <string name="delete_bookmark">Delete bookmark</string>
     <string name="bookmarks">Bookmarks</string>
+    <string name="menu_long_press_disabled">Long press disabled</string>
+    <string name="menu_long_press_enabled">Long press enabled</string>
     <string name="bookmark_edit">Edit</string>
     <string name="book_font">Font</string>
     <string name="sort_by">Sort By ...</string>
