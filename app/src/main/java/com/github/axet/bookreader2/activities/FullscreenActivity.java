@@ -2,9 +2,9 @@ package com.github.axet.bookreader2.activities;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.widget.Toolbar;
 
 import com.github.axet.androidlibrary.activities.AppCompatFullscreenThemeActivity;
 import com.github.axet.bookreader2.R;
