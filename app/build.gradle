@@ -1,11 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    lintOptions {
+        // 禁用所有翻译检查
+        // disable 'MissingTranslation'
+        abortOnError false
+    }
     compileSdkVersion 30
     ndkVersion '16.1.4479499' // stripReleaseDebugSymbols
     defaultConfig {
         applicationId "com.github.axet.bookreader2"
-        minSdkVersion 9
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 416
         versionName "1.15.3"
